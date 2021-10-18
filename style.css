@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100;
+    background: white;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    overflow:auto;
+}
+.menu
+{
+    background-color: green;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+ul
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    list-style:none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+ul li a
+{
+    text-decoration:none;
+    color:white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover
+{
+    text-decoration: none;
+    color :black;
+}
+.main img
+{
+    height: 300px; 
+    width: 300px; 
+    border: 10px solid rgba(32, 160, 100, 0.726); 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 200px;
+    
+    
+}
+.bio
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.icon
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+.icon a:hover
+{
+    color: darkgray;
+    transition: 0.4s ease-in-out;
+}
+.fa-linkedin
+{
+    text-decoration: none;
+    color: #007bb5; 
+}
+.fa-mail
+{
+    text-decoration: none;
+    color: black;  
+}
+.fa-github
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+    
+
