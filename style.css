@@ -6,8 +6,9 @@
 .navbar
 {
     overflow: hidden;
-    background-color: green;
+    background-color: rgb(4, 68, 4);
     position: fixed;
+    z-index: 1;
     top: 0;
     width: 100%;
 }
@@ -19,7 +20,7 @@
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 .navbar a:hover
 {
@@ -32,53 +33,102 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
-    overflow:auto;
+    overflow: auto;
+    position: relative;
 }
-.profilepic
+.bio img
 {
-    height: 300px; 
-    width: 300px; 
-    border: 10px solid rgba(32, 160, 100, 0.726); 
+    height: 200px; 
+    width: 200px; 
+    border: 5px solid rgba(4, 68, 38, 0.726); 
+    border-radius: 50%;
     display: block; 
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: 200px;  
+    margin-top: 80px;
+    margin-left: 100px; 
+    position:absolute
 }
-.broward
+
+.bio h3
 {
-    margin-top: 100px;
-    margin-left: 100px;
+    position:absolute;
+    top: 300px;
+    left: 155px;
+    color: black;
+    font-style: italic;
+    
 }
-img.broward-logo
+.bio h4
 {
-    height: 150px;
-    width: 150px;
-    display: block;
-    float: left;
-    margin: 0 15px 0 0
+    position:absolute;
+    top: 320px;
+    left: 140px;
+    color: black;
+    font-style: italic;
+}
+
+.bio p
+{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+.icon
+{   
+    position: absolute;
+    top: 200px;
+    left: 400px;
 }
 .usf
 {
-    margin-top: 200px;
-    margin-left: 100px;
+    position:absolute;
+    top: 450px;
+    left: 200px;
 }
-img.Usf-logo
+.usf img
 {
-    height: 150px;
-    width: 150px;
-    display: block;
+    height: 100px;
+    width: 100px;
     float: left;
-    margin: 0 15px 0 0
+    margin: 0 15px 0 0 ;
+    
+}
+.usfList
+{
+    display: inline-block;
+}
+.broward
+{
+    position:absolute;
+    top: 570px;
+    left: 200px;
+
+}
+.usf p, .broward p
+{
+    display: inline-block;
+    
+}
+.EduHeading
+{
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+.ExpHeading
+{
+    position:absolute;
+    top: 400px;
+    left: 700px;
 }
 
-.bio
+.broward img
 {
-    color: black;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    text-decoration: none;
+    height: 100px;
+    width: 100px;
+    margin: 0 15px 0 0 ;
+    float:left;
 }
+
 .bio p
 {
     font-size: x-large;
@@ -86,8 +136,8 @@ img.Usf-logo
 .icon
 {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 200px;
+    margin-right: 200px;
     font-size: 40px;
 }
 .icon a:hover
@@ -110,6 +160,43 @@ img.Usf-logo
     text-decoration: none;
     color: black;
 }
+.fa-resume
+{
+    text-decoration: none;
+}
+
+.fairfax
+{
+    position:absolute;
+    top: 450px;
+    left: 700px;
+    display: block;
+
+}
+
+.fairfax img, .usf-it img
+{
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin: 0 15px 0 0 ;
+
+}
+.usf-it p, .fairfax p
+{
+    display: inline-block;
+}
+
+.usf-it
+{
+    position:absolute;
+    top: 750px;
+    left: 700px;
+    display: block;
+    
+}
+
+
 
 
 

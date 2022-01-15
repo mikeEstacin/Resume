@@ -1,88 +1,107 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
-        <title>Education</title>
+        <title>MikeResume</title>
         <link rel="stylesheet" href="style.css">
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </head>
     <body>
-        <div class="navbar">
-        
-            <a href ="#home"> Home</a>
-            <a href ="#education">Education</a>
-            <a href ="#Skills">Skills</aref>
-            <a href ="#">Relevant Experience</a>
-            <a href ="#">Projects</a>
-            <a href ="#">About Me</a>
-            <a href ="#">Contact</a>
-            <a href ="#">Favorite Moments</a>   
-    </div>
-    <div class="main">
-            <img src = "Image/IMG_3580.JPG" class="profilepic">
+        <div class="main">
+            <div class="navbar">
+                <a href ="main"> Home</a>
+                <a href ="#Education">Education</a>
+                <a href ="Experience">Experience</a>
+                <a href ="#">About Me</a>
+                <a href ="#">Contact</a>
+            </div>
+
             <div class="bio">
-                <h2>Mike Estacin, <abbr title = "University of South Florida">USF</abbr> Grad
-                    <br>
-                    B.S in Computer Science
-                </h2>
-                    <h3>B.S in Computer Science</h3>
-                <br>
+                <img src = "Image/profilepic.JPG">
+                <h3>Mike Estacin</h3>
+                <h4>Software Engineer</h4>
+
                 <p>“One man’s crappy software is another man’s full time job.”<br>
                 – Jessica Gaston</p>
                 <br>
             </div>
             <div class="icon">
-            <a class="fa-linkedin" href="https://www.linkedin.com/in/mike-estacin/" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-            <a class="fa-mail" href="mailto:mike.estacin@gmail.com" target="_blank">
-                <ion-icon name="mail"></ion-icon>
-            </a>
-            <a class="fa-github" href="https://github.com/mikeEstacin" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
-            </a>
+                <a class="fa-linkedin" href="https://www.linkedin.com/in/mike-estacin/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon></a>
+                <a class="fa-mail" href="mailto:mike.estacin@gmail.com" target="_blank">
+                    <ion-icon name="mail"></ion-icon></a>
+                <a class="fa-github" href="https://github.com/mikeEstacin" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon></a>
+                <a class="fa-resume" href="Files/Technical Resume.pdf" download="MikeResume">
+                    <ion-icon name="cloud-download-outline"></ion-icon></a>
+            </div>
+            <div id="Education">
+                <h2 class="EduHeading">Education</h2>
+                <div class="usf">
+                    <img src = "Image/bulls-logo.png">
+                    <p>
+                        <br clear="both">
+                        <strong>University of South Florida</strong>
+                        <br>
+                        <ion-icon name="location-outline"></ion-icon> Tampa, Florida<br>
+                        Bachelor of Science in Computer Science
+                        
+                    </p>
+                    
+                </div>
+                <div class="broward">
+                    <img src = "Image/broward-logo.jpeg">
+                    <p>
+                        <strong>Broward College</strong>
+                        <br>
+                        <ion-icon name="location-outline"></ion-icon> Fort Lauderdale, Florida
+                        <br>
+                        Associates in Arts Degree
+                        <br>
+                    </p>    
+                </div> 
+            </div>
 
-            <button type="button" class="butt">
+            <div id="Experience">
+                <h2 class="ExpHeading">Relevant Experience</h2>
+                    <div class="fairfax">
+                        <img src = "Image/ffxImaging-logo.jpeg">
+                        <p> <strong>FairFax Software</strong><br>
+                            Software Engineer
+                        </p>
+                        <ul class="myList">
+                            <br>
+                            <li>Design and develop new application / components primarily in the C#<br>language within .NET/WCF framework</li>
+                            <li>Maintain and enhance Company’s existing software </li>
+                            <li>Perform unit testing</li>
+                            <li>Contribute to integration testing</li>
+                            <li>Create User Exit for Client using React/Angular</li>
+                            <li>Help and train Professional Services and Support groups</li>
+                            <li>Assist in development of test scripts and installation programs</li>
+                        </ul>
+                    </div>
+                    <div class="usf-it">
+                        <img src = "Image/bulls-logo.png">
+                        <p> <strong>University of South Florida</strong><br>
+                            IT Support Technician
+                        </p>
+                        <ul>
+                            <br>
+                            <li>Design and develop new application / components primarily in the C#<br>language within .NET/WCF framework</li>
+                            <li>Maintain and enhance Company’s existing software </li>
+                            <li>Perform unit testing</li>
+                            <li>Contribute to integration testing</li>
+                            <li>Create User Exit for Client using React/Angular</li>
+                            <li>Help and train Professional Services and Support groups</li>
+                            <li>Assist in development of test scripts and installation programs</li>
 
-            </button>
-            <a class="fa-resume" href="Files/Technical Resume.pdf" download="MikeResume">
-                <ion-icon name="cloud-download-outline"></ion-icon>
-            </a>
-            
-        </div>
-        
-    </div>
+                        </ul>
+                    </div>
+                </div>
+                
+                
 
-    <div class="education">
-        <h2>Education</h2>
-        <div class="usf">
-            <p>
-                <img src = "Image/bulls-logo.png">
-                <strong>University of South Florida</strong>
-                <br>
-                <br>
-                <ion-icon name="location-outline"></ion-icon> Tampa, Florida
-                <br>
-                Bachelor of Science in Computer Science
-                GPA: 3.3
-            </p>
-            
         </div>
-        <div class="broward">
-            <p>
-                <img src = "Image/D2pQHKf0_400x400.jpeg">
-                <strong>Broward College</strong>
-                <br>
-                <br>
-                <ion-icon name="location-outline"></ion-icon> Fort Lauderdale, Florida
-                <br>
-                Associates in Arts Degree
-                <br>
-                GPA: 3.8
-            </p>    
-        </div>
-        
-    </div>
         
 
     </div>
